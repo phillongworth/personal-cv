@@ -436,6 +436,18 @@ button:focus-visible{
     color:var(--ink);
 }
 
+.card--panel{
+    background:var(--panel);
+}
+
+.card--panel .card-tag{
+    color:var(--accent);
+}
+
+.card--panel .card-link{
+    color:var(--ink);
+}
+
 /* ---------- Skills and education ---------- */
 .two-col{
     display:flex;
