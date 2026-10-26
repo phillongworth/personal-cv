@@ -359,7 +359,7 @@ button:focus-visible{
 }
 
 .highlights li{
-    padding:6px 0 6px 6px;
+    padding:10px 0 10px 6px;
 }
 
 .highlights li::marker{
@@ -493,7 +493,15 @@ button:focus-visible{
 }
 
 .plain-list li{
+    display:flex;
+    gap:12px;
     padding:6px 0;
+}
+
+.plain-list .yr{
+    flex:0 0 3em;
+    font-weight:600;
+    color:var(--accent);
 }
 
 /* ---------- Footer ---------- */
